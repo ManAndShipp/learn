@@ -11,6 +11,8 @@ h2{
   /* display: flex;
   justify-content: center; */
   text-align: center;
+  margin-top: 30px;
+  margin-right: 12px;
 }
 h3{
   font-size: 14px;
@@ -22,6 +24,11 @@ h3{
 p{
   font-size: 14px;
   font-weight: 400;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
 }
 
 .italic{
