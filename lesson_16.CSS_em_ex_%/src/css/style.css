@@ -6,6 +6,7 @@ body{
   background-color: #faebd0;
 }
 
+
 /* текст */
 
 h1,h2,h3{
@@ -84,4 +85,6 @@ nav ol ul{
 .red{
   background-color: red;
   left: 80px;
+  width: 50vw;
+  height: 50%;
 }
