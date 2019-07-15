@@ -319,10 +319,25 @@ h2.title{
 footer{
   background-color: #1a1a1a;
   min-height: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer_text{
   color: #888888;
   font-family: Roboto;
   font-size: 15px;
   font-weight: 300;
+  text-align: center;
+}
+
+.footer .footer_divider{
+  margin: 0 5px;
+}
+
+.footer .footer_phone{
+  margin-top: 5px;
 }
 
 .footer .footer_wraper{
