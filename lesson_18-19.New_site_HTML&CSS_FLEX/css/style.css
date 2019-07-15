@@ -1,0 +1,330 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* 1 экран */
+
+.promo{
+  height: 890px;
+  background: url('../img/bg/2-layers.png') center center/cover no-repeat;
+  padding-top: 39px;
+  padding-bottom: 62px;
+}
+
+.logo .logo_img{
+  display: block;
+  margin: 0 auto;
+}
+
+.logo .logo_text{
+  font-family: Roboto;
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-top: 14px;
+}
+
+/* тест */
+
+h1{
+  margin-top: 53px;
+}
+
+h2.title{
+  margin: 30px;
+}
+
+.title{
+  text-align: center;
+  color: #f9bf3b;
+  font-family: Roboto;
+  font-size: 41px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.simple .title_big{
+  text-align: center;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 21px;
+}
+
+.promo .promo_text{
+  padding: 0 13px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 28px;
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.promo .promo_text span{
+  color: #f9bf3b;
+  font-weight: 700;
+}
+
+.promo .promo_button, .benefits .benefits_send{
+  display: block;
+  margin: 0 auto;
+  margin-top: 73px;
+  width: 360px;
+  height: 72px;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18);
+  border-radius: 5px;
+  border: 0;
+  background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+  /* текст кпопки*/
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+.more{
+  text-align: center;
+  margin-top: 73px;
+}
+
+.more .more_text{
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.more .more_img{
+  margin: 13px;
+}
+
+/* второй экран */
+
+.waiting{
+  min-height: 604px;
+  background-color: #efefef;
+  padding: 85px 0 75px 0;
+}
+
+.waiting h2.waiting_header, .finish .finish_header, .webinar .webinar_header{
+  text-align: center;
+  color: #252525;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.finish .finish_header{
+  color: white;
+}
+
+.waiting .waiting_divider, .finish .finish_divider{
+  margin: 0 auto;
+  margin-top: 18px;
+  width: 217px;
+  height: 4px;
+  background-color: #f9bf3b;
+}
+
+.waiting .waiting_subheader, .webinar .webinar_descr{
+  text-align: center;
+  margin-top: 17px;
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.waiting .waiting_wrapper{
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.waiting .waiting_wrapper .waiting_item{
+  display: inline-block;
+  width: 339px;
+}
+
+.waiting .waiting_wrapper .waiting_item img.waiting_img{
+  width: 100%;
+}
+
+.waiting_wrapper .waiting_item .waiting_descr{
+  margin-top: 30px;
+  text-align: center;
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+
+/* третий экран */
+
+.optimization{
+  min-height: 550px;
+  padding-top: 102px;
+  padding-bottom: 107px;
+}
+
+.optimization .optimization_header{
+  margin-left: 391px;
+  color: #299cbd;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+ 
+.optimization .optimization_text{
+  margin-top: 25px;
+  margin-left: 391px;
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.optimization .optimization_text span{
+  font-weight: 700;
+}
+
+.optimization .optimization_img{
+  position: absolute;
+  top: 48px;
+  left: -250px;
+  z-index: -1;
+}
+
+/* четвертый экран */
+
+.finish{
+  background-color: #efefef;
+  min-height: 470px;
+  padding-top: 86px;
+  padding-bottom: 76px;
+  background: url('../img/bg/second.png') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper{
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between
+}
+
+.finish .finish_wrapper .finish_item{
+  width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round{
+  width: 115px;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #b4e2ff;
+  border-radius: 100%;
+  
+}
+.finish .finish_wrapper .finish_item .finish_descr{
+  margin-top: 25px;
+  color: #efefef;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+}
+
+.benefits{
+  min-height: 628px;
+  background-color: #efefef;
+  padding: 86px 0;
+}
+
+.benefits .benefits_icon{
+ display: block;
+ margin: 0 auto; 
+}
+
+.benefits .benefits_text{
+  color: #252525;
+  width: 1131px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43px;
+  margin: 0 auto;
+  margin-top: 42px;
+}
+
+.benefits .benefits_send{
+  border: 0;
+}
+
+.webinar{
+  min-height: 515px;
+  padding-top: 82px;
+  padding-bottom: 64px;
+}
+
+.webinar .webinar_header{
+  margin-top: 37px;
+}
+
+.webinar .webinar_laptop{
+  display: block;
+  margin: 0 auto;
+}
+
+.webinar h3.webinar_data{
+  color: #299cbd;
+  font-family: Roboto;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+footer{
+  background-color: #1a1a1a;
+  min-height: 166px;
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.footer .footer_wraper{
+ display: flex;
+}
