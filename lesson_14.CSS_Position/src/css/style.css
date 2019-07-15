@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #faebd0;
+}
+
+/* текст */
+
+h1,h2,h3{
+  text-align: center;
+}
+
+h1{
+  font-size: 32px;
+  padding-top: 140px;
+}
+h2{
+  padding-top: 50px;
+  font-size: 24px;
+}
+h3{
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+
+hr{
+  width: 50vw;
+}
+
+li{
+  font-size: 16px;
+  letter-spacing: 0.4px;
+}
+
+.chapter{
+  margin: 50px;
+}
+
+img{
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+/* меню */
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav ol ul{
+  display: inline;
+}
+
+/* блоки */
+.example{
+  background-color: gray;
+  position: relative;
+}
+
+.box{
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+}
