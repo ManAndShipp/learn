@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"$text_color: red;\n@mixin box {\n  display: block;\n  width: 250px;\n  height: 200px;\n  background-color: red; }\n\nh1 {\n  color: $text_color;\n  font-family: Roboto;\n  @include box; }\nh2 {\n  color: $text_color; }\n.block {\n  background-color: black;\n  h3 {\n    color: $text_color; }\n  &_color {\n    background-color: #fff;\n    button {\n      @include box; } } }\n\n"
+	],
+	"names": [],
+	"mappings": ";AAOA,AAAA,EAAE,CAAC;EACD,KAAK,EARM,GAAG;EASd,WAAW,EAAE,MAAM;EAPnB,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,GAAG;CAKN;;;AACjB,AAAA,EAAE,CAAC;EACD,KAAK,EAZM,GAAG;CAYO;;;AACvB,AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,KAAK;CAMA;;;AAPzB,AAEE,MAFI,CAEJ,EAAE,CAAC;EACD,KAAK,EAhBI,GAAG;CAgBS;;;AACtB,AAAD,YAAO,CAAC;EACN,gBAAgB,EAAE,IAAI;CAEH;;;AAHpB,AAEC,YAFK,CAEL,MAAM,CAAC;EAjBT,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,GAAG;CAeF"
+}

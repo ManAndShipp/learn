@@ -30,7 +30,7 @@ nav{
 
 .menu .menu_item{
   border-right: 2px dotted black;
-  padding-right: 18px;
+  padding-right: 35px;
 }
 
 .menu .menu_item:last-child{
@@ -91,7 +91,7 @@ nav{
 
 .promo{
   min-height: 800px;
-  padding-top: 150px;
+  padding-top: 190px;
   padding-bottom: 135px;
   background: url('../img/bg/car.png') center center/cover no-repeat;
 }
@@ -138,8 +138,76 @@ nav{
   background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
   color: #ffffff;
-  font-family: Roboto;
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.privilege{
+  min-height: 900px;
+  padding-top: 70px;
+  padding-bottom: 65px;
+}
+
+.privilege .privilege_header{
+  text-align: center;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.privilege .privilege_subheader{
+  margin: 0 auto;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 25px;
+  text-align: center;
+}
+
+.privilege .privilege_item{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  height: 150px;
+  width: 100%;
+  /* background-color: #838383; */
+  margin-top: 40px;
+}
+
+.privilege .item_img_round{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+  border-radius: 100%;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+}
+ 
+.privilege .privilege_item_text{
+  width: 380px;
+}
+
+.privilege .privilege_item_text .privilege_item_text_header{
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.privilege .privilege_item_text .privilege_item_text_descr{
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 23px;
 }

@@ -1,0 +1,39 @@
+/* line 8, ../../../works/learn/udemi-web-developer2019/lesson_25.Sass/sass/style.sass */
+h1 {
+  color: red;
+  font-family: Roboto;
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+/* line 12, ../../../works/learn/udemi-web-developer2019/lesson_25.Sass/sass/style.sass */
+h2 {
+  color: red;
+}
+
+/* line 14, ../../../works/learn/udemi-web-developer2019/lesson_25.Sass/sass/style.sass */
+.block {
+  background-color: black;
+}
+
+/* line 16, ../../../works/learn/udemi-web-developer2019/lesson_25.Sass/sass/style.sass */
+.block h3 {
+  color: red;
+}
+
+/* line 18, ../../../works/learn/udemi-web-developer2019/lesson_25.Sass/sass/style.sass */
+.block_color {
+  background-color: #fff;
+}
+
+/* line 20, ../../../works/learn/udemi-web-developer2019/lesson_25.Sass/sass/style.sass */
+.block_color button {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
